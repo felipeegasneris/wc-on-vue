@@ -1,7 +1,7 @@
 <template>
   <div class="hello">
     <span>lo que me llega del webcomponent: {{counter}}</span>
-    <my-counter :start=counter @my-counter-add="setCounter($event.detail.counter)"></my-counter>
+    <my-counter :start=counter @my-counter-add="setCounter($event.detail.counter)" ds-type="secondary"></my-counter>
   </div>
 </template>
 
